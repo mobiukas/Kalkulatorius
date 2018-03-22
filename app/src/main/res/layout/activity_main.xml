@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="#8ed2df"
+    tools:context="com.example.dell.calculator.MainActivity">
+
+    <EditText
+        android:id="@+id/Number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number1"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/Number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number2"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:text="Result"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="+"
+        android:textSize="35sp"
+        android:background="#3286aa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp"
+        android:maxHeight="50dp" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="-"
+        android:textSize="45sp"
+        android:background="#3286aa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:maxHeight="50dp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:maxHeight="50dp"
+        android:background="#3286aa"
+        android:text="*"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:maxHeight="50dp"
+        android:background="#3286aa"
+        android:text="/"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+</LinearLayout>
